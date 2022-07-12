@@ -10,10 +10,9 @@ if (navToggle) {
         navMenu.classList.add("show-menu");
     });
 }
-//?function
-console.log('sajad');
-//mir....
-
+alert('hi my firend');
+//?......
+//love uou
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 if (navClose) {
