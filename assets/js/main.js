@@ -10,6 +10,10 @@ if (navToggle) {
         navMenu.classList.add("show-menu");
     });
 }
+//funtion
+conole.log('sajad')
+//.........
+console.log('ss');
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
