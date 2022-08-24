@@ -6,6 +6,7 @@
         @import url(font.css);
         /*==================== VARIABLES CSS ====================*/
         
+     
          :root {
             --header-height: 3rem;
             /*========== Colors ==========*/
@@ -151,6 +152,7 @@
             transition: color var(--duration) var(--timing), background-color var( --duration) var(--timing);
             background-color: var(--body-color);
             overflow-x: hidden;
+  
         }
         
         h1,
@@ -388,7 +390,19 @@
             margin-top: 0.5rem;
             text-align: center;
         }
-        
+    
+     #auto{
+             color:var(--first-color);
+             background-color: transparent;
+             content: "";
+             width: fit-content;
+             height: fit-content;
+         }
+/* animation text */
+
+
+/* animation text */
+
         section .landing h3 {
             margin: 1.5rem 0rem 1rem;
             text-align: center;

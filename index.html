@@ -6,7 +6,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+<!-- text animation-js -->
 
+<!--  <text animation-js -->
     <link rel="stylesheet" type="text/css" href="style.css" />
 
     <!-- The main stylesheet-------------------- -->
@@ -138,10 +140,13 @@
                     </div>
                 </div>
                 <div class="info">
-                    <h1>
-                        UI/UX Design & Fullstack Web Developer &<br />Software Developer
+         
+
+                    <h1 id="auto"  >
+                        I'm <span class="auto" ></span>
+                        <!-- UI/UX Design & Fullstack Web Developer &<br />Software Developer -->
                     </h1>
-                    <h3>hi,I'm Sajad Saeedi Azad</h3>
+                    
                     <p>
                         Interested in new and difficult challenges, strongly agree and interested in teamwork I try to have positive energy and transfer this energy to those around me, of course I expect those around me not to transfer negative energy to me
                     </p>
@@ -992,7 +997,7 @@
                 <script>
                     AOS.init();
                 </script>
-
+<!-- send Email  -->
 
                 <script>
                     var buttons = document.getElementById("button");
@@ -1013,7 +1018,17 @@
                         }).then((message) => alert(message));
                     })
                 </script>
+<!-- animation text -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
+<script>
+    let typed=new Typed(".auto",{
+        strings:["Sajad Saeedi azad","Fullstack Web Developer","Ui/Ux Design","Software Programming"],
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true,
+    });
+</script>
 </body>
 
 </html>

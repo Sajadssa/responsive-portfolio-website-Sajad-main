@@ -10,7 +10,7 @@ if (navToggle) {
         navMenu.classList.add("show-menu");
     });
 }
-alert('hi my firend');
+// alert('hi my firend');
 //?......
 //love uou
 /*===== MENU HIDDEN =====*/
@@ -67,6 +67,10 @@ tabs.forEach((tab) => {
         tab.classList.add("qualification__active");
     });
 });
+
+// animation text
+
+
 /*==================== SERVICES MODAL ====================*/
 const modalViews = document.querySelectorAll(".services__modal"),
     modalButtons = document.querySelectorAll(".services__button"),
