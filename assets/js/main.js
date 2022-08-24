@@ -10,7 +10,7 @@ if (navToggle) {
         navMenu.classList.add("show-menu");
     });
 }
-alert('hi my firend');
+// alert('hi my firend');
 //?......
 //love uou
 /*===== MENU HIDDEN =====*/
