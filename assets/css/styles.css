@@ -1830,6 +1830,8 @@ section .landing .home__scroll:hover .button__icon {
 .portfolio__description{
     display: none;
 }
+.swiper-button-prev,
+.swiper-button-next{display:none;}
 }
 
 @media screen and (min-width: 375px) {
@@ -2019,6 +2021,8 @@ section .landing .home__scroll:hover .button__icon {
   text-align: center;
 }
 
+.swiper-button-prev,
+.swiper-button-next{display:none;}
 
   .image__wrapper img {
   position: absolute;
@@ -2065,6 +2069,10 @@ section .landing .home__scroll:hover .button__icon {
     text-align: center;
     font-size: 1rem;
   }
+
+.swiper-button-prev,
+.swiper-button-next{display:none;}
+
   .portfolio__description{display: none;}
 }
 
