@@ -1720,11 +1720,7 @@ section .landing .home__scroll:hover .button__icon {
     padding: 1rem;
     margin-right: 0.5rem;
   }
-  .swiper-slide img {
-    width: 293px;
-    height: 200px;
-    object-fit: cover;
-  }
+
   .footer__container,
   .contact__content {
     margin: 0.9rem;
