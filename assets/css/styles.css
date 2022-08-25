@@ -450,7 +450,7 @@ section .landing h1 {
   font-size: 1rem;
   margin: 0 auto;
   padding: 0 1rem;
-  font-size: 1rem;
+  
   position: relative;
   transform: translate(-50%);
   transition: 0.5s;
@@ -1769,7 +1769,7 @@ section .landing .home__scroll:hover .button__icon {
    .landing .profile-area{
     margin: 0 auto;
   }
-  
+
 }
 
 @media screen and (max-width: 375px) {
@@ -1994,7 +1994,7 @@ section .landing .home__scroll:hover .button__icon {
 }
 /* For medium devices */
 
-@media screen and (min-width: 420px) and (max-width: 568px) {
+@media screen and  (max-width: 568px) {
   .header {
     overflow-x: hidden;
     border-bottom-left-radius: 1rem;
@@ -2052,14 +2052,15 @@ section .landing .home__scroll:hover .button__icon {
     background: rgba(69, 61, 141, 0.6);
   }
 
-  .layer .portfolio__description {
+ .portfolio__description {
     display: none;
+
   }
 
   .layer h3 {
     position: relative;
     color: rgba(245, 245, 245, 0.89);
-    font-size: 12px;
+    font-size: 5px;
     width: 100%;
     font-weight: 500;
     bottom: 0;
