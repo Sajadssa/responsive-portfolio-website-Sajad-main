@@ -1777,7 +1777,7 @@ section .landing .home__scroll:hover .button__icon {
     height: 2rem;
     border-radius: 50%;
     position: absolute;
-    color: var(--text-color);
+    color:rgba(4, 22, 39, 0.829);
     background-color: var(--second-color);
     display: flex;
     justify-content: center;
