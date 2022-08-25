@@ -221,16 +221,10 @@ img {
   align-content: center;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
+  background-color: rgba(6, 20, 151, 0.377);
   box-shadow: rgba(0, 0, 0, 0.8) 2px 5px 5px;
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
-  background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 /*==================== NAV ====================*/
 
@@ -2372,7 +2366,7 @@ section .landing .home__scroll:hover .button__icon {
 }
 /* For large devices */
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .header {
     overflow-x: hidden;
     border-bottom-left-radius: 1rem;
