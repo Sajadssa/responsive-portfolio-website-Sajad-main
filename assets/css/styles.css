@@ -133,7 +133,7 @@ audio {
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background: url(/assets/img/sajadn.jpg) no-repeat center center fixed;
+  background: url(/assets/img/sajadssa-removebg-preview.webp) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -283,11 +283,13 @@ img {
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
   }
+  
 }
 
 .nav__list {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+ 
 }
 
 .nav__link {
@@ -331,6 +333,8 @@ img {
   box-shadow: 0 -1px 7px rgba(0, 0, 0, 0.8);
 }
 /*==================== HOME ====================*/
+
+
 /* ============LANDING ANIMATION SECTION============ */
 
 section .landing {
@@ -403,13 +407,17 @@ section .landing h1 {
 .swiper {
   width: 50rem;
   border-radius: 0.7rem;
+  
 }
 
 .image__wrapper {
   width: 100%;
   position: relative;
   padding-top: 56.25%;
+  
 }
+
+
 
 .image__wrapper img {
   position: absolute;
@@ -1285,14 +1293,7 @@ section .landing .home__scroll:hover .button__icon {
             align-items: center; */
 /* } */
 
-/* .swiper-slide img {
-            display: block;
-            width: 310px;
-            height: 180px;
-            object-fit: cover;
-            border-radius: .7rem;
-            border: 1px solid rgba(red, green, blue, .5);
-        } */
+
 
 /* .swiper-slide img:hover {
             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
@@ -1321,7 +1322,7 @@ section .landing .home__scroll:hover .button__icon {
             gap: 1rem;
             justify-content: center;
             align-items: center;
-        } */
+        }  */
 
 /* .swiper-button-prev::after,
         .swiper-button-next::after {
@@ -1343,7 +1344,7 @@ section .landing .home__scroll:hover .button__icon {
 
 /* .swiper-container-horizontal>.swiper-pagination-buttons {
             bottom: -2.5rem;
-        } */
+        } 
 /*==================== PROJECT IN MIND ====================*/
 
 .project {
@@ -2039,7 +2040,7 @@ section .landing .home__scroll:hover .button__icon {
 }
 }
 
-@media screen and(max-width: 568px) {
+@media screen and(min-width: 568px) {
   .header {
     overflow-x: hidden;
     border-bottom-left-radius: 1rem;
@@ -2131,6 +2132,8 @@ section .landing .home__scroll:hover .button__icon {
   .change-theme {
     margin: 0;
   }
+
+  
   h1 {
     font-size: 1.5rem;
   }
@@ -2239,6 +2242,9 @@ section .landing .home__scroll:hover .button__icon {
     flex-direction: row;
     gap: 5rem;
   }
+  .swiper-button-prev,
+.swiper-button-next{display:block;}
+
   .portfolio__img {
     margin-left: 1rem;
   }
