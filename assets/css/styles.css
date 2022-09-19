@@ -202,10 +202,14 @@ img {
   max-width: 1140px;
   margin: 0 auto;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding:0  0.002rem;
  
 }
 
+#home{
+  display: flex;
+  justify-content: center;
+}
 .grid {
   display: grid;
   gap: 1.5rem;
@@ -288,8 +292,6 @@ img {
 }
 section .landing .container .profile-area {
    position: relative;
- 
-  
  
   }
 
@@ -448,6 +450,7 @@ section .landing h1 {
   top: 0;
   left: 0;
   transition: 0.5s;
+  
 }
 .layer:hover {
   transition: 1s;
@@ -518,8 +521,8 @@ section.landing .profile-area {
 }
 
 section .landing .profile-area .outer-circle {
-  width: 18rem;
-  height: 18rem;
+  width: 15rem;
+  height: 15rem;
   border: 10px solid hsl(var(--hue-color), 120%, 80%);
   color: var(--first-color-second);
   border-radius: 50%;
@@ -543,8 +546,8 @@ section .landing .profile-area .outer-circle {
 
 section .landing .profile-area .outer-circle i {
   display: block;
-  width: 3rem;
-  height: 3rem;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 50%;
   position: absolute;
   color: var(--text-color);
@@ -1781,8 +1784,8 @@ section .landing .home__scroll:hover .button__icon {
         font-size: var(--font-medium);
   }
   section .landing .profile-area .outer-circle {
-    width: 16rem;
-    height: 16rem;
+    width: 14rem;
+    height: 14rem;
     border: 4px solid hsl(var(--hue-color), 120%, 80%);
     border-top-color: #c6cfcf;
     border-bottom-color: #cdc4ce;
@@ -1795,8 +1798,8 @@ section .landing .home__scroll:hover .button__icon {
   }
   section .landing .profile-area .outer-circle i {
     display: block;
-    width: 2rem;
-    height: 2rem;
+    width: 1.8rem;
+    height: 1.8rem;
     border-radius: 50%;
     position: absolute;
     color:rgba(4, 22, 39, 0.829);
@@ -2017,8 +2020,8 @@ border: 1px solid transparent;
     padding-bottom: 1rem;
   }
   section .landing .profile-area .outer-circle {
-    width: 18rem;
-    height: 18rem;
+    width: 16rem;
+    height: 16rem;
     border: 1px solid hsl(var(--hue-color), 120%, 80%);
         font-size: 1.6rem;
          /* color: var(--first-color-second);  */
