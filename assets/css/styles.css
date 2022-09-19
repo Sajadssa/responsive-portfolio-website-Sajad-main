@@ -451,6 +451,7 @@ section .landing h1 {
   left: 0;
   transition: 0.5s;
   
+  
 }
 .layer:hover {
   transition: 1s;
@@ -1246,6 +1247,7 @@ section .landing .home__scroll:hover .button__icon {
   background-color: var(--body-color);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 3rem;
 }
 
 .portfolio__content {
