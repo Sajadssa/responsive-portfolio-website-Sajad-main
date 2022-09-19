@@ -292,7 +292,7 @@ const info = document.getElementById("info");
 
 const prevBtn = document.querySelector('.prev-btn');
 const nextBtn = document.querySelector('.next-btn');
-const randomBtn = document.querySelector('.random-btn');
+const random = document.querySelector('.random');
 
 //set starting item
 
@@ -333,7 +333,7 @@ prevBtn.addEventListener("click", function () {
 });
 
 //show random prson
-randomBtn.addEventListener("click", function () {
+random.addEventListener("click", function () {
     currentItem = Math.floor(Math.random() * reviews.length);
     showPerson();
 

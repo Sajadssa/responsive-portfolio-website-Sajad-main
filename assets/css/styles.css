@@ -2550,14 +2550,9 @@ background-color: rgba(31, 38, 135, 0.37);
   border: 1px solid var(--second-color);
 }
 
-.random-btn{
-  background-color:var(--second-color);
-  border: none;
-  margin: 0 auto;
-  color: var(--font-color);
-  padding: .8rem;
-  border-radius: 1rem;
-}
+ .random{
+   bottom: .6rem;
+ }
  
   .swiper-slide {
     display: flex;
