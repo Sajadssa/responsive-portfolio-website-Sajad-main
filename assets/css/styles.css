@@ -153,6 +153,8 @@ body {
   background-color: var(--body-color);
 
   overflow-x: hidden;
+
+ 
 }
 
 h1,
@@ -283,8 +285,8 @@ img {
     transition: 0.3s;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(12px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
   }
@@ -388,6 +390,7 @@ section .landing .socials a {
 section .landing .socials a:hover {
   background-color: var(--first-color-second);
   color: var(--body-color);
+  
 }
 
 section .landing .info {
@@ -1188,8 +1191,8 @@ section .landing .home__scroll:hover .button__icon {
   border-radius: 0.5rem;
   background: rgba(124, 145, 139, 0.116);
   box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(7.7px);
-  -webkit-backdrop-filter: blur(7.7px);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(15px);
   border-radius: 10px;
   color: #fff;
 }
@@ -2502,9 +2505,31 @@ border-radius: 12px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
- 
 
-  
+}
+.fa-chevron-left{
+  text-align: center;
+padding-left: 0;
+margin-top: 1rem;
+}
+.fa-chevron-right{
+  text-align: center;
+padding-right: 0;
+margin-top: 1rem;
+}
+
+ 
+.fa-chevron-left,
+.fa-chevron-right:hover{
+content: '';
+width: 1rem;
+height: 1.5rem;
+padding: .3rem;
+ justify-content: center;
+ top:2rem ;
+border-radius: .2rem;
+background-color: rgba(31, 38, 135, 0.37);
+ 
 }
 .button-container {
   padding-bottom: 0.5rem;
@@ -2565,8 +2590,8 @@ backdrop-filter: blur(5px);
     background: none;
   }
   .project__container {
-    backdrop-filter: blur(7px) saturate(57%);
-    -webkit-backdrop-filter: blur(7px) saturate(57%);
+    backdrop-filter: blur(12px) saturate(57%);
+    -webkit-backdrop-filter: blur(12px) saturate(57%);
     background-color: rgba(31, 67, 136, 0.16);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
