@@ -291,7 +291,7 @@ img {
     border: 1px solid rgba(255, 255, 255, 0.18);
   }
  
-}
+} 
 section .landing .container .profile-area {
    position: relative;
  
@@ -1667,6 +1667,7 @@ section .landing .home__scroll:hover .button__icon {
     overflow-x: hidden;
     border-top-left-radius: 5rem;
     border-top-right-radius: 5rem;
+ 
   }
   .nav__list {
     column-gap: 0;
@@ -2148,7 +2149,10 @@ border: 1px solid transparent;
     overflow-x: hidden;
     border-bottom-left-radius: 3rem;
     border-bottom-right-radius: 3rem;
+ 
+    
   }
+  
   .home {
     height: auto;
     row-gap: 1rem;
@@ -2390,7 +2394,7 @@ border: 1px solid transparent;
     padding: 0;
   }
   section .landing .container .profile-area {
-   margin: auto;
+   margin: 5rem;
   }
   section .landing .socials {
     transform: translateX(-6rem);
@@ -2631,43 +2635,3 @@ background-color: rgba(31, 38, 135, 0.37);
  
 /* For large devices */
 
-@media screen and (min-width: 1024px) {
-  .header {
-    overflow-x: hidden;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
-  .header,
-  .main,
-  .footer__container {
-    padding: 0;
-  }
-  
-  section .landing .socials {
-    transform: translateX(-6rem);
-    margin-left: -35rem;
-  }
-  .services__container {
-    grid-template-columns: repeat (4, 238px);
-  }
-  .portfolio__content {
-    column-gap: 2rem;
-    width: 100%;
-  }
-  .contact__form {
-    width: 460px;
-  }
-  .contact__inputs {
-    display: flex;
-    flex-direction: row;
-  }
-  .about__img {
-    margin: 0 0 10rem 10rem;
-  }
-  .about__description {
-    padding: 0 1rem 1rem 5rem;
-  }
-  .portfolio__description {
-    padding: 0 4rem;
-  }
-}
