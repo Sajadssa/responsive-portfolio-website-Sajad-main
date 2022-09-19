@@ -2443,7 +2443,7 @@ width: 23rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 23rem;
+  width: 20rem;
   height: 25rem;
   justify-content: center;
   align-content: center;
@@ -2452,7 +2452,7 @@ background-position: center;
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: var(--body-color);
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.034);
+    border: 1px solid rgba(255, 255, 255, 0.125);
  
  
 }
@@ -2491,11 +2491,12 @@ color: var(--second-color);
  text-align: center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-bottom: 1rem;
-  max-width: 100%;
+ width: 17rem;
   height: min-content;
+word-wrap:break-word;
   /* From https://css.glass */
 background-color:var(--body-color);
-border-radius: 16px;
+border-radius: 12px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
