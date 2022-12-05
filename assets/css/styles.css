@@ -1899,7 +1899,7 @@ section .landing .home__scroll:hover .button__icon {
 
 background-color:var(--body-color);
 border: 1px solid transparent;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 2px 8px 32px 5px rgba(31, 38, 135, 0.37);
     border-radius: 12px;
  
  
@@ -2507,6 +2507,10 @@ width: 23rem;
   border-top: 2px solid rgba(255, 255, 255, 1);
   border-left: 2px solid rgba(255, 255, 255, 1);
   border-radius: 0.8rem;
+  margin-bottom: 2rem;
+}
+.mtop{
+  margin-top: -1.5rem;
 }
 
 .review {
@@ -2516,7 +2520,7 @@ width: 23rem;
   flex-direction: column;
   align-items: center;
   width: 20rem;
-  height: 25rem;
+  height: 27rem;
   justify-content: center;
   align-content: center;
 background-position: center;
@@ -2524,7 +2528,7 @@ background-position: center;
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: var(--container-color);
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    border: 1px solid rgba(80, 68, 68, 0.125);
  
  
 }
