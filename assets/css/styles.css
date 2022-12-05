@@ -1496,7 +1496,9 @@ section .landing .home__scroll:hover .button__icon {
   border-radius: .5rem;
   margin-top: 1rem;
 }
- 
+ .colortext{
+  color:var(--text-color-light);
+ }
 /*==================== FOOTER ====================*/
 
 .footer {
